@@ -1,0 +1,5 @@
+const words = [ 'love', 'stuff', 'swag', 'unfortunatelly', 'computer', 'Iphone'];
+
+const result = words.filter(word => word.length > 4);
+
+console.log(result);
